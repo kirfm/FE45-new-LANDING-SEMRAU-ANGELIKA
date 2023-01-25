@@ -1,0 +1,28 @@
+.footer {
+  padding: 30px 0 15px;
+  background-color: #000000;
+}
+.footer-text {
+  color: #fff;
+  text-align: center;
+  display: block;
+}
+.footer-social--list{
+  display: inline-block;
+  position: absolute;
+  justify-content:center;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0 auto 18px;
+  width: 100%;
+}
+.footer-list--item a{
+  font-size: 30px;
+  margin: 0 15px;
+  display: inline-block;
+}
+.footer-list {
+display: flex;
+justify-content: space-between;
+}
+
+

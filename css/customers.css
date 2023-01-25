@@ -1,0 +1,106 @@
+.customers {
+padding: 80px 0;
+}
+.title {
+  width: 668px;
+  height: 42px;
+  margin: auto;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+}
+.main-title::after {
+  content: "";
+  width: 67px;
+  height: 2px;
+  background-color: #ffffff;
+  display: block;
+  margin-top: 34px;
+  margin-bottom: 76px;
+}
+.customers-descriptiont p {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #86878B;
+text-align: center;
+}
+.customers-wrap{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.customers-card {
+justify-content: space-between;
+display: flex;
+flex-direction: column;
+width: 298px;
+margin: 0 15px;
+}
+.customers-text {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 9px 22px 6px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  background-color: #E2E2E2;
+  border-radius: 7px;
+  color: #86878B;
+}
+.customers-text::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  left: 15%;
+  transform: rotate(-45deg);
+  top: calc(100% - 10px);
+  background-color: #e2e2e2;
+  width: 20px;
+  height: 20px;
+
+}
+.customers-card-review {
+  display: flex;
+  justify-content: space-around;
+
+}
+.customers-card-review-img img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.customers-card-personality {
+  text-align: right;
+}
+
+.customers-person__name {
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #333333;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.customers-person__pasition {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  align-items: center;
+  color: #86878B;
+}
